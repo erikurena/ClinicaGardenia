@@ -1,0 +1,1 @@
+import{g as e,S as o}from"./ScrollTrigger.a3sj5zmn.js";document.addEventListener("DOMContentLoaded",()=>{e.registerPlugin(o),document.querySelectorAll(".gsap-fade-up").forEach(r=>{e.fromTo(r,{y:50,opacity:0},{y:0,opacity:1,duration:.8,ease:"power3.out",scrollTrigger:{trigger:r,start:"top 85%"}})})});
