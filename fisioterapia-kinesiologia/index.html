@@ -81,11 +81,11 @@ Agenda tu cita
 
        <h4 class="text-gold font-medium mb-5 text-lg drop-shadow-sm">Beneficios principales</h4>
       <ul class="space-y-4">
-          ${e.beneficios.map(d=>`
+          ${e.beneficios.map(n=>`
             <li class="flex items-start gap-3 bg-black/20 p-4 rounded-xl border border-white/5 backdrop-blur-sm">
             <span class="text-gold text-xl leading-none mt-0.5">•</span>
-            <span class="text-ivory/95">${d}</span>
+            <span class="text-ivory/95">${n}</span>
           </li>
           `).join("")}
         </ul>
-      `;const a=`Hola, quería consultar sobre: ${e.titulo}`;document.getElementById("modal-whatsapp").href=`https://wa.me/59167210130?text=${encodeURIComponent(a)}`,s.classList.remove("hidden"),s.classList.add("flex"),document.body.style.overflow="hidden"}(t.target.classList.contains("btn-close-modal")||t.target===s)&&(s.classList.add("hidden"),s.classList.remove("flex"),document.body.style.overflow="auto")});document.addEventListener("keydown",t=>{t.key==="Escape"&&(s.classList.add("hidden"),s.classList.remove("flex"),document.body.style.overflow="auto")});const l=document.querySelectorAll(".reveal"),n=new IntersectionObserver((t,o)=>{t.forEach(e=>{e.isIntersecting&&(e.target.classList.add("show"),o.unobserve(e.target))})},{threshold:.2,rootMargin:"0px 0px -50px 0px"});l.forEach(t=>n.observe(t));</script>
+      `;const a=`Hola, quería consultar sobre: ${e.titulo}`;document.getElementById("modal-whatsapp").href=`https://wa.me/59167210130?text=${encodeURIComponent(a)}`,s.classList.remove("hidden"),s.classList.add("flex");const d=document.getElementById("modal-content");requestAnimationFrame(()=>{d.scrollTop=0}),document.body.style.overflow="hidden"}(t.target.classList.contains("btn-close-modal")||t.target===s)&&(s.classList.add("hidden"),s.classList.remove("flex"),document.body.style.overflow="auto")});document.addEventListener("keydown",t=>{t.key==="Escape"&&(s.classList.add("hidden"),s.classList.remove("flex"),document.body.style.overflow="auto")});const l=document.querySelectorAll(".reveal"),c=new IntersectionObserver((t,o)=>{t.forEach(e=>{e.isIntersecting&&(e.target.classList.add("show"),o.unobserve(e.target))})},{threshold:.2,rootMargin:"0px 0px -50px 0px"});l.forEach(t=>c.observe(t));</script>
